@@ -13,8 +13,8 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Bagls"
-PROJECT_NAME_FULL: str = "BAGLS: Automatic Glottis Segmentation"
+PROJECT_NAME: str = "BAGLS: Images"
+PROJECT_NAME_FULL: str = "BAGLS: Benchmark for Automatic Glottis Segmentation (Images)"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
@@ -83,12 +83,12 @@ AUTHORS: Optional[List[str]] = [
 ]
 AUTHORS_CONTACTS: Optional[List[str]] = ["pablo.gomez@tum.de", "andreas.kist@uk-erlangen.de"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "GE-US joint research group"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "the GER-US-BEL joint research group"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "sex": ["man", "woman"],
+    "sexes": ["man", "woman"],
     "__POSTTEXT__": "Additionally, every image contains information about patients ***age range***, glottis state ***status***. Moreover, every image is tagged with ***video id***",
 }
 TAGS: Optional[List[str]] = None
