@@ -1,3 +1,3 @@
-# BAGLS: Automatic Glottis Segmentation
+# BAGLS: Benchmark for Automatic Glottis Segmentation (Images)
 
-Bagls is a dataset for semantic segmentation and object detection tasks.
+BAGLS: Images is a dataset for semantic segmentation and object detection tasks.
