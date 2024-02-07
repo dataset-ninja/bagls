@@ -24,7 +24,7 @@ LICENSE: License = License.CC_BY_NC_SA_4_0(
     source_url="https://www.kaggle.com/datasets/gomezp/benchmark-for-automatic-glottis-segmentation"
 )
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical()]
-CATEGORY: Category = Category.Medical()
+CATEGORY: Category = Category.Medical(sensitive_content=True)
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]

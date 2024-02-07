@@ -62,12 +62,11 @@ To achieve this diversity, the authors collaborated internationally, with each g
 | Total Number of Videos             | 570           | 70        |
 | Total Number of Frames             | 55750         | 3500      |
 
-<span style="font-size: smaller; font-style: italic;">Composition of the dataset in relation to origin; the training data featured 50 or 100 frames per video
-depending on video length and test data 50 frames per video.</span>
+<span style="font-size: smaller; font-style: italic;">Composition of the dataset in relation to origin; the training data featured 50 or 100 frames per video depending on video length and test data 50 frames per video.</span>
 
 As the availability of data differs between groups, it was not possible to balance the training data such that each group is represented equally. The test data, however, is split equally among groups ensuring that a method has to perform well on data from all or most of the institutions to achieve good scores on the benchmark. The authors provide individual frames of the videos that are discontinuous and randomly selected to enhance data diversity as consecutive frames typically show little variation. For each video in the test dataset, 50 frames were randomly selected leading to a total of 3500 frames from 70 videos. For the training data, either 50 or 100 frames (some videos were too short for more than 50 discontinuous frames) were randomly selected and a total of 55750 frames was selected from 570 HSV recordings. The authors provide a detailed breakdown of the provided data in terms of ***age range***, sex(***man***, ***woman***) and disorder ***status*** to emphasize the data diversity and give a detailed overview of the data. The frames and videos contained in the BAGLS dataset are provided with corresponding metadata.
 
-<img src="https://github.com/dataset-ninja/bagls/assets/120389559/fb931ea9-2c0a-4295-b785-23aa99e2582d" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/bagls/assets/120389559/fb931ea9-2c0a-4295-b785-23aa99e2582d" alt="image" width="500">
 
 <span style="font-size: smaller; font-style: italic;">Age distribution of subjects in the BAGLS dataset.</span>
 
