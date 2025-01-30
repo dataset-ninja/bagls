@@ -1,6 +1,6 @@
 Dataset **BAGLS: Images** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/y2semmavbhfsepk8wwixq/bagls-images-DatasetNinja.tar?rlkey=63v6bzvt08jnn74j9rbwjdk79&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzM0MzdfQkFHTFM6IEltYWdlcy9iYWdscy1pbWFnZXMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiYmZFb1BmdDFXUldudmVncGNYMjFNbXh2RjJNYkJOL0xRMDIzODhHS1BPYz0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
